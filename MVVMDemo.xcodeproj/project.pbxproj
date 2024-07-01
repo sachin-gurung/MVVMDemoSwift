@@ -11,6 +11,8 @@
 		86FBA8F62C335D8A009954FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FBA8F52C335D8A009954FA /* ContentView.swift */; };
 		86FBA8F82C335D8B009954FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86FBA8F72C335D8B009954FA /* Assets.xcassets */; };
 		86FBA8FB2C335D8B009954FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86FBA8FA2C335D8B009954FA /* Preview Assets.xcassets */; };
+		86FBA9022C335DD0009954FA /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FBA9012C335DD0009954FA /* Item.swift */; };
+		86FBA9042C335E7D009954FA /* ItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FBA9032C335E7D009954FA /* ItemViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		86FBA8F52C335D8A009954FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		86FBA8F72C335D8B009954FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86FBA8FA2C335D8B009954FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		86FBA9012C335DD0009954FA /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		86FBA9032C335E7D009954FA /* ItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				86FBA8F52C335D8A009954FA /* ContentView.swift */,
 				86FBA8F72C335D8B009954FA /* Assets.xcassets */,
 				86FBA8F92C335D8B009954FA /* Preview Content */,
+				86FBA9012C335DD0009954FA /* Item.swift */,
+				86FBA9032C335E7D009954FA /* ItemViewModel.swift */,
 			);
 			path = MVVMDemo;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				86FBA8F62C335D8A009954FA /* ContentView.swift in Sources */,
+				86FBA9042C335E7D009954FA /* ItemViewModel.swift in Sources */,
+				86FBA9022C335DD0009954FA /* Item.swift in Sources */,
 				86FBA8F42C335D8A009954FA /* MVVMDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
